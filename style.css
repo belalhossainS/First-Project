@@ -7,6 +7,9 @@ h1{
 .orange-color{
     color: orange;
 }
+#about{
+    padding-top: 5%;
+}
 section{
     display: flex;
     margin-bottom: 150px;
@@ -31,4 +34,93 @@ section{
 .about-me{
     background-image: url(images/shapes/7.png);
     
+}
+.categories{
+    margin-top: 70px;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.experience {
+    
+    width: 20%;
+    padding: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#leftBox{
+    float: left;
+}
+
+#middleBox{
+    float: left;
+}
+
+#rightBox{
+    float: left;
+}
+/* /* .row::after{
+    content: "";
+    display: table;
+    clear: both; */
+
+} */
+.center{
+    text-align: center;
+    margin: auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.wall-hop{
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    padding: 1em;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+.block p{
+    padding: 3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50);
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    background-size: 10px;
+}
+.footer-col-1{
+    text-align: left;
+    color: aqua;
+}
+.myRecipies{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+.recipe{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
